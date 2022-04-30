@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VictorMorocho.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid >
+                <Image Source="uisrael.jpg"/>
+            </Grid>
+
+            <Button x:Name="btnIniciar" Text="Iniciar Sistema" Clicked="btnIniciar_Clicked" BorderRadius="20" BackgroundColor="Green" TextColor="White" CornerRadius="30" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
